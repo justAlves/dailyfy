@@ -9,7 +9,7 @@ export interface UserProps {
 }
 
 interface ActionsProps {
-    setUser: (user: UserProps) => void
+    setUser: (user: UserProps | null) => void
 }
 
 interface AuthProps {
