@@ -7,7 +7,7 @@ export default function Sidebar() {
   return (
     <aside className='hidden md:flex w-1/5 bg-secondary max-h-full shadow-md flex-col'>
         <SidebarHeader/>
-        <NoteList data={noteSeed}/>
+        <NoteList/>
     </aside>
   )
 }
